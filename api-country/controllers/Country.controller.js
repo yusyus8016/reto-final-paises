@@ -11,7 +11,7 @@ async function saveCountry(req, res){
                 language: data.language,
                 currency: data.currency,
                 flag: data.flag,
-                images: data.images
+                photos: data.photos
             });
 
         await newCountry.save();
